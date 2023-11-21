@@ -5,7 +5,7 @@ const connectDB = require("./db/connect");
 const cors = require("cors");
 require("dotenv").config();
 
-app.use(cors("http://192.168.0.102:3000"));
+app.use(cors("https://social-media-clone-4333a.web.app"));
 
 app.use(express.static("../client/build"));
 app.use(express.json());
